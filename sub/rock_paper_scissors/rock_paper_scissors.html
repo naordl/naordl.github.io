@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock, Paper, Scissors</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+
+<div class="header">The epic game of Rock, Paper and Scissors</div>
+
+<div class="middle">
+    <img class="thanosLeft" src="images/thanos.png">
+    <div class="buttonInterface">
+        <div class="textAboveButtons">Make your choice:</div>
+    <div class="buttonsToClick">
+        <button class="rockImage" onclick="clickedRock()">
+            <img class="btnImages" src="images/rock.png">
+        </button>
+        <button class="paperImage" onclick="clickedPaper()">
+            <img class="btnImages" src="images/paper.png">
+        </button>
+        <button class="scissorsImage" onclick="clickedScissors()">
+            <img class="btnImages" src="images/scissors.png">
+        </button>
+    </div>
+    <div class="liveScore">Current score
+        <div> Your score: <span id="playerScore"></span></div>
+        <div>Computer's score: <span id="computerScore"></span></div>
+    </div>
+    </div>
+    <img class="thanosRight" src="images/thanos.png">
+</div>
+
+<div class="footer">Copyright: ME</div>
+ 
+</body>
+</html>
